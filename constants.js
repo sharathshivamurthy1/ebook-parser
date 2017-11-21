@@ -1,0 +1,7 @@
+const PARSE_SUPPORTED_FILE_FORMATS = ['pdf', 'epub', 'mobi'];
+const VALID_EBOOK_FILE_FORMATS = ['pdf', 'epub', 'mobi', 'azw3'];
+
+module.exports = {
+    PARSE_SUPPORTED_FILE_FORMATS: PARSE_SUPPORTED_FILE_FORMATS,
+    VALID_EBOOK_FILE_FORMATS: VALID_EBOOK_FILE_FORMATS
+}
