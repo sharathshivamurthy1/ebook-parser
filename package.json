@@ -11,6 +11,7 @@
   "dependencies": {
     "epub": "^0.2.0",
     "mobi": "0.0.1",
+    "mongodb": "^2.2.33",
     "recursive-readdir": "^2.2.1",
     "redux": "^3.7.2"
   }

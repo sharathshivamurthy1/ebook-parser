@@ -45,8 +45,9 @@ function parseEpub(allBookList, index) {
 
 function parseBookList (allBookList, index) {
     // Parse mobi first since it is a syncnchronous op.
-    parseMobi(allBookList);
-    parseNextEpub(allBookList, -1);
+    parseMobi(allBookList).then(function(){
+        parseNextEpub(allBookList, -1);
+    });
 }
 
 
